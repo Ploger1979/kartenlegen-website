@@ -1,0 +1,104 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 280 30% 98%;
+    --foreground: 280 10% 10%;
+    
+    --card: 280 30% 96%;
+    --card-foreground: 280 10% 10%;
+    
+    --popover: 280 30% 98%;
+    --popover-foreground: 280 10% 10%;
+    
+    --primary: 280 60% 40%;
+    --primary-foreground: 280 10% 98%;
+    
+    --secondary: 250 30% 40%;
+    --secondary-foreground: 250 10% 98%;
+    
+    --muted: 280 20% 90%;
+    --muted-foreground: 280 10% 40%;
+    
+    --accent: 320 40% 40%;
+    --accent-foreground: 320 10% 98%;
+    
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 280 20% 85%;
+    --input: 280 20% 80%;
+    --ring: 280 60% 40%;
+    
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 280 30% 5%;
+    --foreground: 280 10% 98%;
+    
+    --card: 280 30% 8%;
+    --card-foreground: 280 10% 98%;
+    
+    --popover: 280 30% 5%;
+    --popover-foreground: 280 10% 98%;
+    
+    --primary: 280 60% 50%;
+    --primary-foreground: 280 10% 98%;
+    
+    --secondary: 250 30% 50%;
+    --secondary-foreground: 250 10% 98%;
+    
+    --muted: 280 20% 15%;
+    --muted-foreground: 280 10% 70%;
+    
+    --accent: 320 40% 50%;
+    --accent-foreground: 320 10% 98%;
+    
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 280 20% 25%;
+    --input: 280 20% 30%;
+    --ring: 280 60% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.mystical-gradient {
+  background: linear-gradient(135deg, rgba(107, 33, 168, 0.8) 0%, rgba(147, 51, 234, 0.6) 50%, rgba(192, 38, 211, 0.4) 100%);
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(107, 33, 168, 0.3);
+}
+
+.star-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0 L52 48 L100 50 L52 52 L50 100 L48 52 L0 50 L48 48 Z' fill='rgba(147, 51, 234, 0.05)'/%3E%3C/svg%3E");
+  background-size: 150px 150px;
+}
+
+.moon-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 0 C77.6 0 100 22.4 100 50 C100 77.6 77.6 100 50 100 C22.4 100 0 77.6 0 50 C0 22.4 22.4 0 50 0 Z M50 25 C63.8 25 75 36.2 75 50 C75 63.8 63.8 75 50 75 C36.2 75 25 63.8 25 50 C25 36.2 36.2 25 50 25 Z' fill='rgba(147, 51, 234, 0.03)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
