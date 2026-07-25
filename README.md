@@ -1,3 +1,5 @@
+![Kartenlegen Website Preview](./public/kartenlegen-preview.png)
+
 # Kartenlegen & Spirituelle Beratung - Web App
 
 Eine moderne, responsive Webanwendung für spirituelle Lebensberatung, Tarot und Lenormand-Kartenlegen. 
