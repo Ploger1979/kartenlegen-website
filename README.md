@@ -8,7 +8,7 @@ Das Projekt bietet eine interaktive Benutzererfahrung, automatisierte Kontaktfor
 *Hinweis: Dies ist ein deutschsprachiges Projekt (German-language project).*
 
 ## 🌟 Live Demo
-[Hier Link zur Live-Demo einfügen, z.B. https://dein-projekt.netlify.app]
+https://kartenlegen-selinazazou.org/
 
 ## ✨ Features
 - **Modernes UI/UX-Design**: Flüssige Animationen mit Framer Motion und ein ansprechendes, thematisch passendes Styling.
